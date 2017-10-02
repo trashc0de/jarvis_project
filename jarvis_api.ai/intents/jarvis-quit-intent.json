@@ -1,0 +1,97 @@
+{
+  "id": "c0685282-c837-426e-9d7d-f6c6b5860408",
+  "name": "jarvis-quit-intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "jrvs-action-quit",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ok",
+            "Accepted",
+            "Roger",
+            "Received"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506869429,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "22b92fb6-266a-46d1-b68f-11fc4066bec1",
+      "data": [
+        {
+          "text": "end"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a4b9bc97-eb1b-49f0-b974-1f92c1deabcc",
+      "data": [
+        {
+          "text": "close"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5c9a3c26-7c14-4929-9146-c9ffb771e997",
+      "data": [
+        {
+          "text": "stop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "28452073-f16f-429c-b04f-c1447045a919",
+      "data": [
+        {
+          "text": "exit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "66d6645b-821e-4a55-9adb-53e5033c974e",
+      "data": [
+        {
+          "text": "quit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

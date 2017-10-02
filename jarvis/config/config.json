@@ -1,0 +1,8 @@
+{
+  "providers":{
+
+    "gnrl-action-open-door": "http://192.168.1.8:5000/providers/door_opener"
+
+  }
+
+}

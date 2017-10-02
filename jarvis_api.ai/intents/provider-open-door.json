@@ -1,0 +1,82 @@
+{
+  "id": "828b1f70-edbf-4a80-8ca1-7da9ff3fa058",
+  "name": "provider-open-door",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "provide-command-open-door",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "provider-open-door-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "And the password is ?",
+            "Tell me the password ?",
+            "I\u0027m gonna need the password"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506872618,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "73715629-110d-42e2-b35b-ec630a2a8d44",
+      "data": [
+        {
+          "text": "open gate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "32e75170-5007-491c-8506-520e3f2a784f",
+      "data": [
+        {
+          "text": "open door"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "59980d45-a708-454b-89e3-be8878806abd",
+      "data": [
+        {
+          "text": "open the door"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
