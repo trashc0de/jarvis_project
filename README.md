@@ -26,7 +26,7 @@ When a user enter a query on che CLI, jarvis sends it to API.AI (i call this an 
 
 When an event is received, it's invoked via API.AI. When an action is received a Provider for that action is searched. The search is performed on data stored on config/config.json where is specified which microservice will provide answer for a particular action
 
-###Example
+### Example
 
 This is how it works, considering a very stupid and simple example. Jarvis is started so a Interaction of type event is created with information to call "welcome" event (that only says "hi!" to user, nothing special).
 
@@ -38,7 +38,7 @@ When this action is received, jarvis discovers that the provider for this action
 
 A POST operation is sent at that url, passing the API.AI context that contains the parameters. The password is verified and the door is opened (if password is matched) or the user is prompted for "wrong password".
 
-###How to exdend jarvis
+### How to exdend jarvis
 
 1. create an intent for your interaction
 2. if you need jarvis to handle an action, you have to add it to config/config.json file and to create the microservice (keep the result syntax)
